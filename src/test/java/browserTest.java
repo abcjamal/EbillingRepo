@@ -20,7 +20,7 @@ public class browserTest
    public void bTest()
    {
 	   driver.get("http://demo.guru99.com/test/web-table-element.php");
-	  
+	   driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
    }
    @AfterSuite
    public void tearDown()
