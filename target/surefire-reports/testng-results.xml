@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="browserTest" duration-ms="5037" started-at="2021-01-09T14:05:52Z" finished-at="2021-01-09T14:05:57Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="5037" started-at="2021-01-09T14:05:52Z" finished-at="2021-01-09T14:05:57Z">
+      <class name="browserTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:browserTest@880ec60]" name="setUp" is-config="true" duration-ms="8076" started-at="2021-01-09T19:35:44Z" finished-at="2021-01-09T19:35:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bTest()[pri:0, instance:browserTest@880ec60]" name="bTest" duration-ms="5023" started-at="2021-01-09T19:35:52Z" finished-at="2021-01-09T19:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:browserTest@880ec60]" name="tearDown" is-config="true" duration-ms="2881" started-at="2021-01-09T19:35:57Z" finished-at="2021-01-09T19:36:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browserTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- browserTest -->
+</testng-results>
